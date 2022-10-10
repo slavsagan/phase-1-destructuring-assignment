@@ -31,6 +31,9 @@ describe("index.js", () => {
     expect(pink).to.exist
     expect(pink).to.equal("pig")
   })
+
+
+
   it("Array: uses destructuring to declare the seven traditional rainbow color variables using the color names", () => {
     expect(red).to.exist
     expect(red).to.equal("red")
@@ -65,6 +68,8 @@ describe("index.js", () => {
     expect(indg).to.exist
     expect(indg).to.equal("indigo")
   })
+  
+
   
   it("Object: uses destructuring to assign all appropriate variables using the keys as the variable names", () => {
     expect(muppetName).to.exist
